@@ -1,0 +1,256 @@
+* {
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    background-color: limegreen;
+}
+
+nav.top-nav {
+    background-color: limegreen;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.list {
+    background-color: limegreen;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 3em;
+}
+
+nav.top-nav li {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+nav.top-nav .pulldown-menu li {
+    display: block;
+}
+
+nav.top-nav .pulldown-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+    display: block;
+}
+
+
+
+.my-intro {
+    display: inline-block;
+    width: 700px;
+    vertical-align: middle;
+}
+
+.about-intro {
+    display: inline-block;
+    margin-right: 40px; 
+    border-radius: 15px; 
+    width: 750px;
+    border: 10px solid limegreen;
+    vertical-align: middle;
+}
+
+.my-intro-text {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.intro-wrapper {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-wrapper {
+    margin-left: 70px;
+    text-align: center;
+    display: inline-block;
+}
+
+.my-pic {
+    display: inline-block;
+}
+
+.my-pic img {
+    vertical-align: middle;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 30px;
+}
+
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.project-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.resume-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image {
+    max-width:550px;
+    border-radius: 35px;
+    height: auto;
+}
+
+.proj-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: limegreen;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.proj-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+} 
+
+.project1 {
+    float: left;
+    margin-left: 30px;
+    border: 8px solid limegreen;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.project2 {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    border: 8px solid limegreen;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.resume {
+    float: right;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+.my-parade-pic{
+    display: inline-block;
+}
+.my-parade-pic img{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.my-contact-text{
+    font-size: 50px;
+}
+
+.my-contact-text img{
+    height: 50px;
+    padding-left: 10px;
+}
+
+.projectLink{
+    text-decoration: none;
+}
+
+.map {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+.plane{
+    width: 10%;
+    margin-top: 150px;
+    float: left;
+}
+
+.landing-wrapper {
+    float:left;
+}
+
+.landing-heading {
+    display: inline-block;
+}
+
+.pdf {
+    border: 8px solid limegreen;
+    border-radius: 30px;
+}
+
+/* This portion of code was sourced from https://alvarotrigo.com/blog/css-text-animations/ */
+.my-name
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  font-style: italic;
+  background-size: 200% auto;
+  color: #fff;
+  margin-top: 50px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 80px;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+/* This portion of code was sourced from https://alvarotrigo.com/blog/css-text-animations/ */
